@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/remi-yuan-glrBDgQMAsY-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Noto Sans", san-serif;
+  color: #faf7f7;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+}
+
+.pt-3 {
+  padding-top: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main {
+  position: relative;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 9rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #2a22226f;
+  z-index: 10;
+}
+
+.main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .container .count-item {
+  text-align: center;
+}
+
+.main .container .big-text {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .main .container .big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
