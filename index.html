@@ -8,8 +8,9 @@
         <title>Countdown Timer</title>
     </head>
     <body>
-        <header class="header pt-3">
-            <h1 class="text-center">Towards a new dawn!</h1>
+        <header class="header pt-3 text-center">
+            <h1>Count it down</h1>
+            <p id="message">Create a countdown timer for key events in your life</p>
         </header>
         <main class="main">
             <section class="container">
@@ -29,6 +30,18 @@
                     <p class="big-text" id="seconds">0</p>
                     <span>seconds</span>
                 </div>
+            </section>
+            <section class="form-area">
+                <form action="" class="time-form" id="form-time">
+                    <label class="form-label text-center" for="date">
+                        Enter a date (eg: 1 Jan 2021 make sure you get the spellings right)
+                    </label>
+                    <div class="input-group">
+                        <input type="text" class="time-input" name="date" id="date" placeholder="5 Oct 2021" required>
+                        <button class="time-btn" type="submit" role="button">Go!</button>
+                    </div>
+                    <p id="error" class="text-center"></p>
+                </form>
             </section>
         </main>
         <script src="js/app.js" defer></script>
